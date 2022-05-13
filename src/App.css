@@ -1,0 +1,105 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D8E4ED;
+}
+
+#myVideo {
+  position: fixed;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  filter: brightness(25%);
+}
+
+
+
+nav {
+  
+  min-height: 10vh;
+   display:flex;
+   align-items: center; 
+   flex-direction: column;
+/*
+   justify-content: space-around;
+   */
+
+ 
+  margin:auto;
+  padding: 40px 0 20px 0;
+  /* background: #7BA4C2; */
+
+
+  background: rgba(44,77,100,1);
+  background-position: center center;
+  background-blend-mode: darken;
+  background-image: url('./images/dalga.jpg');
+
+   /* background: #2c4d64 url('./images/dalga.jpg') no-repeat center; */
+  /* box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 5px -4px; */
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+nav h2 {
+  letter-spacing: 3px;
+  font-size:2rem;
+  color: #D8E4ED;
+  text-shadow: #320382;
+  border-top: 2px solid #D8E4ED;
+  border-bottom: 2px solid #D8E4ED;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+ul {
+  display: flex;
+  width:75%;
+  justify-content: space-around;
+  list-style:none;
+  margin:50px 0 13px 0;
+}
+
+ul li {
+  color:white;
+   font-size: 1.5rem;
+   cursor:pointer;
+}
+
+ul li a {
+  color:white;
+  padding: 2rem 1rem;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 600;
+}
+ul li a:hover {
+  color:rgb(30, 70, 142);
+  background-color: #F7E6AB;
+  transition: 0.3s;
+}
+
+.active {
+  color:rgb(30, 70, 142);
+  background-color: #F7E6AB;
+  transition: 0.3s;
+}
+
+@import './Home.css';
+@import './About.css';
+@import './Contact.css';
+@import './Rafting.css';
+@import './TekneTur.css';
+@import './KulturTur.css';
+@import './ExtremeTur.css';
+@import './Banner.css';
+@import './Footer.css';
+
+
+

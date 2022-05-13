@@ -1,0 +1,120 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  .home {
+    display: grid;
+    grid-template-columns: 1.9fr 3.75fr;
+
+
+  }
+
+  .home .sol {
+       grid-column: 1;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+  }
+
+
+
+ .home .sol img {
+    width:90%; 
+}
+
+  .home .sag {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    place-items: center;
+}
+
+.home .sag h2 { 
+    margin-bottom:20px;
+}
+
+.home .sag div {
+    width:75%; 
+}
+
+.home .sag img {
+    width:100%; 
+}
+
+.home .sag p {
+   margin-top: 20px;
+   font-size:22px;
+  
+}
+
+.home .turlar {
+    color:rgb(30, 70, 142);
+    text-decoration: none;
+}
+
+.home .turlar:hover {
+    color:#F0602C;
+}
+
+
+.home .sag .raftingeheyecan{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .sag .raftingeheyecan img {
+    width:75%; 
+}
+
+.home .sag .teknetur{
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .sag .teknetur img {
+    width:75%; 
+}
+
+.home .sag .kulturtur{
+    grid-column: 1;
+    grid-row: 2;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .sag .kulturtur img {
+    width:75%; 
+}
+
+.home .sag .extremetur{
+    grid-column: 2;
+    grid-row: 2;
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .sag .extremetur img {
+    width:75%; 
+}
+
+ 
+

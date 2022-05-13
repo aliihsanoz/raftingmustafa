@@ -1,0 +1,11 @@
+.banner {
+    margin-top:25px;
+    width:100%;
+    z-index: 100;
+    margin-bottom:25px;
+}
+
+.banner img {
+    width:100%;
+}
+
